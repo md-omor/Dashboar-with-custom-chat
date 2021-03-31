@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Custom Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- icon start -->
+        <div class="icon_wrapper">
+            <div class="icon">
+                <div class="s_name">
+                    <h1>s</h1>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-home" ></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-file-download"></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                
+                <hr class="hr_icon">
+
+                <div class="icon_sub_div">
+                    <i class="fas fa-home" ></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="icon_sub_div">
+                    <i class="fas fa-file-download"></i>
+                </div>
+                <hr class="hr_icon">
+                <div class="icon_sub_div" id="last_icon">
+                    <i class="fas fa-file-download"></i>
+                </div>
+            </div>
+        </div>
+        <!-- icon end -->
+
+        <!-- first section start -->
+
+        <div class="others_section">       
+
+            <div class="main_section">
+                <div class="browse">
+                    <input type="text" class="browse_input" placeholder="search">
+                </div>
+                
+                <div class="notification">
+                    <div class="not_img_1">
+                        <img src="img/git profile.jpg" alt="img">
+                    </div>
+                    <select id="select">
+                        <option value="Thomas">Thomas</option>
+                        <option value="Khalid">Khalid</option>
+                        <option value="Banna">Banna</option>
+                        <option value="Fahad">Fahad</option>
+                    </select>
+                    <div class="not_img_2">
+                        <img src="img/notification.png" class="not_img_2" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- first section end -->
+
+            <!-- secend section start -->
+
+            <div class="varaites_section">
+                <div class="custom_video_player">
+
+                    
+
+
+                    <video src="1.mp4" id="video" class="screen" poster="img/2.jpg" controls></video>
+                    
+                    <!-- <iframe width="400" height="300" src="https://www.youtube.com/embed/TxkqhP6cFvA?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </div>
+                <div class="todoWrapper"> 
+                    <div class="messeging">
+                        <div class="message_header">
+                            <h3>Live Chat</h3>
+                            <i class="fas fa-user-friends"></i>
+                            <p>15,988 people</p>
+                        </div>
+                    </div>
+
+                    <div class="todo">
+                        
+
+
+                       
+                    <!-- data comes form localStorage -->
+
+
+                <!-- <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>
+                        </div>
+                        <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>
+                        </div>
+                        <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>
+                        </div>
+                        <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>   
+                        </div>
+                        <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>   
+                        </div>
+                        <div class="todolist">
+                            <div class="todoitem">
+                                <img src="img/mes1.jpg" alt="message">
+                            </div>
+                            <div class="todocontent">
+                                <h1>Banna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div id="todotrash">
+                                <i class="fas fa-trash" id="todoicon"></i>
+                            </div>   
+                        </div> -->
+                    </div>
+                    <form id="input_id">
+                        <div class="input_container">
+                            <div class="input_fuild">
+                                <i class="fas fa-spinner" id="message_start_i"></i>
+                                <input type="text" placeholder="Write your message" id="text_sender_id" autocomplete="off">
+                                <button id="send_btn" type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- secend section end -->
+
+            <!-- last section start-->
+
+            <div class="last_section">
+                <div class="video_discription">
+                    <div class="main_description">
+                        <div class="des_img">
+                            <img src="img/git profile.jpg" alt="creator_img">
+                        </div>
+                        <div class="des_img_descrip">
+                            <h3>Md Omor</h3>
+                            <p>1,980,893 Subscribers</p>
+                        </div>
+                    </div>
+                    <div class="video_description_letter">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia, iste quam sit iure magni.
+                        </p>
+                        <p id="video_des_p">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores maxime ipsum rerum voluptate possimus? Voluptas, neque, rerum quia ipsum adipisci et, illo suscipit quo necessitatibus nostrum veritatis praesentium est saepe.
+                        </p>
+                        <!-- <p id="video_des_p">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores maxime ipsum rerum voluptate possimus? Voluptas, neque, rerum quia ipsum adipisci et, illo suscipit quo necessitatibus nostrum veritatis praesentium est saepe.
+                        </p> -->
+                    </div>
+                </div>
+                <div class="main_btn">
+                    <div class="btn1">
+                        <button class="btn_share"><i class="fas fa-heart"></i>Share</button>
+                    </div>
+                    <div class="btn2">
+                        <button class="btn_liked"><i class="fas fa-heart"></i>Liked</button>
+                    </div>
+                </div>  
+                <div class="videos_information">
+                    <ul class="videos_info_list"> 
+                        <li><i class="fas fa-eye"></i>125,908 views</li>
+                        <li><i class="fas fa-heart"></i>47,987 likes</li>
+                        <li><i class="fas fa-stream"></i>1,938,394 streaming</li>
+                        <li><i class="fas fa-bell"></i>Starts two hours ago</li>
+                    </ul>
+                </div>
+                <div class="related_videos">
+                    <div class="rel_videos_header">
+                        <h3>Related Videos</h3>
+                    </div>
+                        <div class="all_mini_video">
+                            <div class="all_mini_video_whapper">
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/ad1.jpg" alt=""></div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re2.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re3.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re1.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re2.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re3.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re1.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re2.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re3.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                               <div class="single_mini_video">
+                                 <div class="mini_video"><img src="img/re1.jpg" alt=""> </div>
+                                 <div class="mini_video_tittel">
+                                   <h4>Propare for your first skateboard jump</h4>
+                                   <span>jordan Wise</span>
+                                   <p>125,908 views . 2 days ago</p>
+                                 </div>
+                               </div>
+                            </div>
+                          </div>
+                    
+                    <div class="rel_video_btn">
+                        <button class="rel_btn">See All Related Videos(32)</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
